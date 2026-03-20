@@ -1,6 +1,6 @@
 .film-box {
     background-color: #1e1e1e;
-    border-radius: 2px;
+    border-radius: 6px;
     padding: 2px;
     box-shadow: 5px 5px 5px black;
 }
@@ -20,7 +20,7 @@ h2 {
 
 img {
     width: 100%;
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
 h2 {
@@ -33,6 +33,11 @@ h2 {
 }
 
 .btn:hover {
+    background-color: rgb(88, 22, 88);
+    border-color: rgb(88, 22, 88);
+}
+
+.btn:active {
     background-color: rgb(44, 16, 44);
     border-color: rgb(44, 16, 44);
 }
