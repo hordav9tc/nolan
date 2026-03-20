@@ -1,0 +1,39 @@
+.film-box {
+    background-color: #1e1e1e;
+    border-radius: 2px;
+    padding: 2px;
+    box-shadow: 5px 5px 5px black;
+}
+
+body {
+    background-color: #121212;
+    color: lightgray;
+}
+
+h2 {
+    font-family: 'Orbitron';
+    font-size: larger;
+    letter-spacing: 5px;
+    color: white;
+    margin: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+h2 {
+    color: purple;
+}
+
+.btn {
+    background-color: rgb(129, 24, 129);
+    border-color: rgb(129, 24, 129);
+}
+
+.btn:hover {
+    background-color: rgb(44, 16, 44);
+    border-color: rgb(44, 16, 44);
+}
+
