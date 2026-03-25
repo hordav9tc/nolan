@@ -21,28 +21,44 @@ h2 {
     text-align: center;
 }
 
-img {
-    width: 100%;
-    border-radius: 6px;
-}
-
-.btn {
+.btn-primary {
     background-color: rgb(129, 24, 129);
-    border-color: rgb(129, 24, 129);
+    border: none;
+    transition: transform 0.25s
 }
 
-.btn:hover {
+.btn-primary:hover {
     background-color: rgb(88, 22, 88);
-    border-color: rgb(88, 22, 88);
+    border: none;
 }
 
-.btn:active {
+.btn-primary:active {
     background-color: rgb(44, 16, 44);
-    border-color: rgb(44, 16, 44);
+    border: none;
+    transform: scale(0.95);
 }
 
 .film-box:hover {
     transform: scale(1.1);
     background-color: #3f3f3f;
     box-shadow: 0 8px 20px black;
+}
+
+.film-img {
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.film-cim {
+    font-size: 1.4;
+    font-weight: bold;
+    color: #b786fc;
+    margin-bottom: 10px;
+}
+
+.film-szoveg {
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    text-align: center;
 }
