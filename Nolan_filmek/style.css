@@ -2,7 +2,7 @@
     background-color: #1e1e1e;
     border-radius: 6px;
     padding: 2px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 0 4px 10px black;
     transition: transform 0.5s;
 }
 
@@ -44,4 +44,5 @@ img {
 .film-box:hover {
     transform: scale(1.1);
     background-color: #3f3f3f;
+    box-shadow: 0 8px 20px black;
 }
